@@ -399,10 +399,10 @@ input{
        
     }
     .image_box{
-        width: 45%;
-        height:35vh ;
-        top: 50%;
-        left:70% ;
+        width: 40%;
+        height:60vh ;
+        top: 100%;
+        left:80% ;
         
     }
     .container_sites{
@@ -441,61 +441,61 @@ input{
         height: 60vh;
     }
     h2{
-        margin-bottom:10%;
+        margin-bottom:5%;
         font-size: 35px;
 
     }
     .descripton_text_sec2{
-        margin-bottom: 10%;
-        font-size: 30px;
+        margin-bottom: 5%;
+        font-size: 20px;
         margin-left: 2%;
     }
     .descripton_sites{
-        font-size: 30px;
-        margin-bottom: 7%;
+        font-size: 20px;
+        margin-bottom: 5%;
     }
     .sec1{
         padding: 20px;
         
     }
     .sec1{
-        height: 75vh;
+        height: 100vh;
     }
     .services{
         margin-left: 5%;
-        font-size: 35px;
+        font-size: 30px;
     }
     .descripton_text{
         margin-left: 10%;
         width: 80%;
-        font-size: 30px;
+        font-size: 25px;
     }
     .sec2{
-        height: 100vh;
+        height: 200vh;
        
 
     }
     .box_sites{
         height: 73%;
-        width: 40%;
+        width: 30%;
      
     }
     .box_sites2{
         height: 58%;
         position: absolute;
-        left: 38%;
-        width: 50%;
+        left: 30%;
+        width: 40%;
         
        
     }
     .h2_sec2{
-        font-size: 35px;
-        margin-bottom: 10%;
+        font-size: 30px;
+        margin-bottom: 5%;
     }
     .image_sites3
     {
-        width: 35%;
-        top:39%;
+        width: 39%;
+        top:27%;
     }
     .image_sites_img
     {
@@ -505,7 +505,7 @@ input{
         border-radius: 20px;
     }
     .image_sites{
-        width: 37%;
+        width: 40%;
     
         
     }
@@ -517,12 +517,12 @@ input{
 
     .descripton_text_sec1{
         margin-left:20px ;
-        font-size: 30px;
+        font-size: 25px;
     }
     .note{
         margin-left: 40px;
-        font-size: 25px;
-        margin-bottom: 10%;
+        font-size: 20px;
+        margin-bottom: 5%;
     }
     .footer-section{
         height: 40vh;
@@ -538,17 +538,17 @@ input{
         
     }
     .input{
-        font-size: 30px;
+        font-size: 20px;
     }
     .footer-section .thanks
     {
-        font-size: 30px;
+        font-size: 20px;
     }
     .footer-section .owner{
         font-size: 30px;
     }
     .footer-section .rights{
-        font-size: 30px;
+        font-size: 20px;
     }
 
 }
@@ -876,6 +876,7 @@ input{
     .title{
         font-size: 35px;
         width: 80%;
+        
     }
     .greetings{
         font-size: 27px;
@@ -887,8 +888,8 @@ input{
     }
     .image_box{
         width: 50%;
-        height:35vh ;
-        top: 120%;
+        height:40vh ;
+        top: 150%;
         left:50% ;
         
     }
@@ -936,7 +937,7 @@ input{
         
     }
     .sec1{
-        height: 80vh;
+        height: 100vh;
     }
     .services{
         margin-left: 5%;
@@ -948,7 +949,7 @@ input{
         font-size: 20px;
     }
     .sec2{
-        height: 220vh;
+        height: 250vh;
        
 
     }
@@ -959,7 +960,7 @@ input{
         
     }
     .box_sites2{
-        height: 40%;
+        height: 43%;
         position: absolute;
         top: 55%;
         left: 5%;
@@ -989,8 +990,8 @@ input{
         
     }
     .image_sites2{
-        width: 60%;
-        height: 60%;
+        width: 50%;
+        height: 50%;
         
         
        
@@ -1008,7 +1009,7 @@ input{
         margin-bottom: 10%;
     }
     .footer-section{
-        height: 60vh;
+        height: 70vh;
     }
 
     .input{
@@ -1030,6 +1031,7 @@ input{
     .title{
         font-size: 30px;
         width: 80%;
+        
     }
     .greetings{
         font-size: 25px;
@@ -1170,6 +1172,7 @@ input{
         left:50% ;
 
     }
+
   
     .descripton{
         font-size: 20px;
@@ -1480,4 +1483,13 @@ input{
         
     }
     
+}
+@media (height:720px){
+    .image_box{
+        width: 50%;
+        height:35vh ;
+        top: 120%;
+        left:50% ;
+        
+    }
 }
