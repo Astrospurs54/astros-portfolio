@@ -533,7 +533,7 @@ font-family: helvetica;
     width: 55px;
     height: 25px;
 }
-p{
+.comment_section p{
     font-size: 20px;
     font-weight: 500;
     text-align: left;
@@ -541,7 +541,7 @@ p{
     opacity: 70%;
 
 }
-h3{
+.comment_section h3{
     font-size: 20px;
     text-transform: uppercase;
     font-weight: 600;
