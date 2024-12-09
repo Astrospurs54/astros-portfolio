@@ -29,8 +29,20 @@
         <P class="greetings">
             Welcome to my <span>portfolio.</span>
         </P>
+        <div class="wrapper">
+            <div class="static_txt">
+                <p>I am a</p>
+            </div>
+            <div class="dynamic_txt">
+                <ul>
+                    <li>Frontend developer</li>
+                    <li>Game developer</li>
+                    <li>Software developer</li>
+                </ul>
+            </div>
+        </div>
         <p>
-            I am a Frontend developer currently based in web development,game development and software development I am looking forward in creating more and more websites just like those below .<span>Feel free to explore </span>.    </p>
+             I am looking forward in creating more and more websites just like those below .<span>Feel free to explore </span>.    </p>
     </div>
 <section class="sec1">
     <h2 id="offered">Offered Services</h2>
@@ -82,15 +94,39 @@
 
 </section>
 <section class="comment_section">
-    <form action="comment.php" method="post">
-        <label class="lab">comment :</label>
-        <input type="text" class="input" placeholder=" Leave a comment"> 
-        <button class="submit" value="submit">submit</button>           
+    <div class="container">
+        <div class="comment_box" >
+            <label for="" class="name" >
+                Name :
+            </label>
+            <input type="text" id="name_input" placeholder="Enter your name">
+            <br>
+            <label class="comment" >
+                comment :
+            </label>
+            <input type="text" id="comment_txt" placeholder="Enter comment" class="comment_txt">
+            <br>
+            <button type="submit" id="submit">submit</button>
+        </div>
+        <div class="comments_section" id="section">
+            <h3 id="name_result"></h3>
+            <br>
+            <p id="chonena"></p>
+
+        </div>
+        <div class="comments_section" id="section">
+            <h3 id="name_result2"></h3>
+            <br>
+            <p id="chonena2"></p>
+            
+        </div>
+       
+    </div>
     </form>
 </section>
 <section class="footer-section">
     <footer class="footer">
-        <div class="logo-footer"><img src="assets/logo.jpg" alt="company logo" class="logo-footer"></div>
+        <div class="logo-footer"><img src="assets/logo.jpg" alt="company logo" class="logo-footer_img"></div>
         <div class="container-footer">
             <div class="social-container">
                 <div class="socials">
@@ -114,7 +150,7 @@
 
 
 
-
+<script src="jvs.js"></script>
 
 </body>
 </html>
