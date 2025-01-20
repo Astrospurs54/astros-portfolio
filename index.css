@@ -3,6 +3,209 @@
     margin: 0;
     padding: 0;
 }
+.hero-section{
+    height: 120vh;
+    width: 100vw;
+    padding: 20px;
+    background: url(assets/🔥\ Dark\ Ring\ Light\ \ Background\ Download\ \ For\ CB\ EDITING\ _\ CBEditz.jpeg);
+    background-position: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+   position: relative;
+   z-index: -3;
+}
+.hero-section::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    z-index: -2;
+    background: rgba(0,0,0,0.8);
+}
+body:has(option[value="dark"]:checked){
+
+    color:white;
+    position: relative;
+   
+
+    .hero-section{
+    background:url(assets/pexels-francesco-ungaro-396547.jpg);
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    }
+    .hero-section{
+        height: 150vh;
+        width: 100vw;
+    }
+    .lightmodes{
+        width: 50px;
+        
+    
+    }
+    select{
+        border-radius: 20px;
+        background-color: #000;
+        color: #ffffff;
+        height: 30px;
+        border: 2px solid white;
+        width: 100px;
+        padding: 5px;
+        cursor: pointer;
+    }
+    .light-mode-pic{
+        display: none;
+    }
+    }
+
+ body:has(option[value="light"]:checked){
+    color:black;
+    position: relative;
+   background-color: #ddd;
+
+    .hero-section{
+    background:#ddd;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    }
+    .hero-section::before{
+        background: rgba(0,0,0,0.1);
+    }
+    
+        
+    
+.a_tags{
+    color: #000;
+    
+}
+.comment_section{
+   
+   padding-top: 5%;
+   padding-bottom: 5%;
+    background: #ffffff;
+    height: 100vh;
+    
+}
+.footer-section{
+    margin-top: 0%;
+
+}
+
+
+.nav_bar{
+    height: 50px;
+}
+.dynamic_txt li::after{
+    
+    background-color: #c5c1c1;
+}
+.lightmodes{
+    width: 50px;
+    
+
+}
+select{
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: black;
+    font-weight: 500;
+    border: 2px solid black;
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+    cursor: pointer;
+}
+span{
+    color: #43c6ac;
+}
+.description-box{
+    margin: 10% auto;
+    padding: 1%;
+    width: 50%;
+    
+
+}
+.sec1{
+    
+    background: url(assets/pexels-joaojesusdesign-925743.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: fixed;
+        
+}
+header{
+    background-color: #8d8c8c;
+    height: 10vh;
+    margin-bottom: 10%;
+    border-radius: 20px;
+    margin-top: -10px;
+}
+.title{
+    border-bottom: 2px solid black;
+}
+.descripton_text.lightmode{
+color: #ffffff;
+}
+.sec2{
+    padding-top: 5%;
+    background-color: #ddd; 
+    
+}
+
+p{
+    opacity: 90%;
+}
+.greetings{
+    width: 100%;
+    font-weight: 900;
+    opacity: 100%;
+    border-bottom: 2px solid black;
+}
+.descripton{
+    
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 10%;
+    translate: -50% -50%;
+    overflow: hidden;
+    opacity: 90%;
+}
+.static_txt{color: black;}
+    .dynamic_txt li{
+        color: #43c6ac;
+    }
+    .blue_tiles{
+        display: none;
+    }
+    .sec2{
+        background: #ddd;
+        
+    }
+    .hero-section{
+        height: 150vh;
+        width: 100vw;
+    }
+    .image_box{
+        display: none;
+    }
+    .box_sites{
+        background:rgba(0,0,0,0.4);
+        height: 116vh;
+    }
+    .box_sites2{
+        background:rgba(0,0,0,0.4);
+    }
+    .hero-section{
+        background: url(assets/pexels-alleksana-4284288.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: fixed;
+    }
+  
+    }
 body{
     background: #000;
     font-family: sans-serif;
@@ -10,14 +213,23 @@ body{
     text-align: center;
     position: relative;
     height: 100vh;
+    z-index: 1;
 }
+.light-mode-pic{
+    width: 70%;
+    height: 80vh;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -1;
+}
+
 .image_box{
     width: 40%;
     height: 35vh;
-    position: absolute;
-    top: 80%;
-    left: 75%;
-    translate: -50% -50%;
+    margin-left: 2%;
+   margin-top: 5%;
     z-index: -1;
     box-shadow: 0rem .1rem 3rem  #43c6ac;
     border-radius: 20px;
@@ -26,12 +238,12 @@ body{
    
 }
 @keyframes change{
- 0%{ box-shadow: 0rem .1rem 6rem  #43c6ac;}
- 25%{ box-shadow: 0rem .1rem 3rem  #43c6ac;}
+ 0%{ box-shadow: 0rem .1rem 4rem  #43c6ac;}
+ 25%{ box-shadow: 0rem .1rem 2rem  #43c6ac;}
  50%{ box-shadow: 0rem .1rem 0rem  #43c6ac;}
  75%{ box-shadow: 0rem 0rem 0rem #000;}
  85%{box-shadow: 0rem 0rem 0rem #ffffff;}
- 100%{ box-shadow: 0rem .1rem 7rem  #43c6ac;}
+ 100%{ box-shadow: 0rem .1rem 4rem  #43c6ac;}
 }
 
 .wrapper{
@@ -119,12 +331,23 @@ body{
     margin-right:50% ;
    
 }
+.description-box{
+    justify-content: right;
+    align-items: right;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -25%;
+    margin-left:40% ;
+
+}
 .descripton{
     z-index: 1;
     font-size: 30px;
     opacity: 80%;
     letter-spacing: 0.1em;
     width: 65%;
+    
+    
     padding: 2%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -491,36 +714,13 @@ input{
     color: #000;
     font-size: 20px;
     font-family: sans-serif;
-    margin: 5% ;
+    margin: 2% ;
     background-color: #ddd;
     border-radius: 10px;
 
 }
-.submit{
-    color: #ffffff;
-    width: 17%;
-    height: 17%;
-    font-family: sans-serif;
-    font-size: 20px;
-    margin-left: 85%;
-    translate: -50% -50%;
-    margin-top: 3%;
-    border-radius: 20px;
-    border: 2px solid white;
-    background: black;
-    cursor: pointer;
-    position: relative;
-    z-index: 0;
-}
-.comment_results{
 
-width: 100vw;
-height: 100vh;
-padding: 10px;
-margin: 5px;
-font-family: helvetica;
 
-}
 .container{
     width: min(90%,1140px);
     margin: 3rem auto;
@@ -530,8 +730,13 @@ font-family: helvetica;
     position:relative;
 }
 #submit{
-    width: 55px;
+    width: 70px;
+    color: #ffffff;
     height: 25px;
+    border: 2px solid white;
+    background: black;
+    border-radius: 20px;
+    cursor: pointer;
 }
 .comment_section p{
     font-size: 20px;
@@ -560,6 +765,11 @@ font-family: helvetica;
 
 
 }
+.comment_box{
+    margin: 5px;
+    padding: 5px;
+    
+}
 #name_input{
 margin-bottom: 5%;
 width: 40%;
@@ -568,8 +778,8 @@ height: 50px;
 }
 #comment_txt{
     margin-bottom: 5%;
-    
-    
+    margin-right: 15%;
+
 
 }
 .comments_section{
@@ -599,7 +809,7 @@ height: 50px;
 }
 
 
-.comment_container::before{
+.comment_container::after{
     content: '';
     background-color: rgb(170,170,170);
     position: absolute;
@@ -638,12 +848,13 @@ height: 50px;
 @media (max-width:1400px)
 {
     .title{
-        font-size: 45px;
+        font-size: 50px;
         width: 60%;
     }
     .greetings{
         font-size: 35px;
-        width:90% ;
+        width:70% ;
+        margin: 5vh auto;
        
        
     }
@@ -652,10 +863,10 @@ height: 50px;
         height:100px;
     }
     .image_box{
-        width: 38%;
-        height:80vh ;
-        top: 120%;
-        left:75% ;
+        width: 30%;
+        height:60vh ;
+        top: 115%;
+        left:70% ;
         
     }
     .container_sites{
@@ -668,12 +879,21 @@ height: 50px;
         margin-left: 0%;
     }
     .descripton{
-        font-size: 30px;
+        font-size: 25px;
         margin-bottom: 15%;
-        margin-left: 30%;
+        margin-left: 27%;
+        margin-top: -40%;
         translate: -50% ;
         width: 60%;
     }
+   
+    .descripton .wrapper .static{
+        font-size: 30px;
+          }
+       .descripton .wrapper .dynamic_txt li{
+         font-size:23px;
+        
+        }
     .nav_links{
         width: 100%;
     }
@@ -700,7 +920,7 @@ height: 50px;
     }
     .descripton_text_sec2{
         margin-bottom: 5%;
-        font-size: 20px;
+        font-size: 30px;
         margin-left: 2%;
     }
     .descripton_sites{
@@ -785,7 +1005,9 @@ height: 50px;
     .footer{
         width: 90%;
     }
-    
+    .container-footer{
+        height: 20vh;
+    }
     .input{
         font-size: 20px;
     }
@@ -798,6 +1020,82 @@ height: 50px;
     }
     .footer-section .rights{
         font-size: 20px;
+    }
+    .comment_section{
+        height: 50vh;
+    }
+    .container{
+        margin: 10px;
+    }
+    .comment_section{
+        height: 75vh;
+       }
+       .name{
+        font-size: 15px;
+       }
+       .comment{
+        font-size: 15px;
+       }
+       .container{
+        height: 100%;
+        width: 90%;        
+       }
+       .container .comment_box input{
+        width: 60vw;
+        height: 10vh;
+        font-size: 15px;
+
+ 
+       }
+       #name_input{
+        width: 30vw;
+        font-size: 15px;
+        height: 5vh;
+        margin: 5px;
+        margin-right: 45%;
+
+       }
+       .comments_section{
+        width: 90%;
+        height: 15vh;
+        padding: 5px;
+        margin: 5vh auto;
+     
+      
+       }
+       .comments_section h3{
+        font-size: 20px;
+       }
+       .comment_section p{
+        font-size: 20px;
+       }
+       body:has(option[value="light"]:checked){
+        color:black;
+        position: relative;
+       background-color: #ddd;
+    
+       
+    
+       
+        
+        
+        .descripton .wrapper .static{
+            font-size: 22px;
+              }
+           .descripton .wrapper .dynamic_txt li{
+             font-size:20px;
+            
+            }
+        .description-box{
+            width: 70%;
+            
+        }  
+        .descripton{
+            width: 50%;
+            margin-top: 7%;
+            margin-left: 30%;
+        } 
+       
     }
 
 }
@@ -815,9 +1113,9 @@ height: 50px;
     }
     .image_box{
         width: 40%;
-        height:35vh ;
-        top: 50%;
-        left:67% ;
+        height:40vh ;
+        top: 100%;
+        left:80% ;
         
     }
     .container_sites{
@@ -832,9 +1130,9 @@ height: 50px;
     .descripton{
         font-size: 25px;
         margin-bottom: 15%;
-        margin-left: 30%;
+        margin-left: 40%;
         translate: -50% ;
-        width: 60%;
+        width: 70%;
     }
     .nav_links{
         width: 100%;
@@ -874,7 +1172,7 @@ height: 50px;
         
     }
     .sec1{
-        height: 75vh;
+        height: 100vh;
     }
     .services{
         margin-left: 5%;
@@ -886,7 +1184,7 @@ height: 50px;
         font-size: 25px;
     }
     .sec2{
-        height: 100vh;
+        height: 200vh;
        
 
     }
@@ -909,8 +1207,8 @@ height: 50px;
     }
     .image_sites3
     {
-        width: 35%;
-        top:39%;
+        width: 34%;
+        top:43%;
     }
     .image_sites_img
     {
@@ -920,12 +1218,12 @@ height: 50px;
         border-radius: 20px;
     }
     .image_sites{
-        width: 37%;
+        width: 35%;
     
         
     }
     .image_sites2{
-        width: 60%;
+        width: 50%;
         height: 50%;
  
     }
@@ -939,12 +1237,116 @@ height: 50px;
         font-size: 23px;
         margin-bottom: 10%;
     }
+    .hero-section{
+        height: 100vh;
+    }
     .footer-section{
-        height: 40vh;
+        height: 70vh;
         width: 100%;
     }
     .footer{
         width: 90%;
+    }
+    .comment_section{
+        height: 50vh;
+    }
+    .container{
+        margin: 10px;
+    }
+    .comment_section{
+        height: 75vh;
+       }
+       .name{
+        font-size: 15px;
+       }
+       .comment{
+        font-size: 15px;
+       }
+       .container{
+        height: 100%;
+        width: 90%;        
+       }
+       .container .comment_box input{
+        width: 90vw;
+        height: 10vh;
+        font-size: 15px;
+    
+       }
+       #name_input{
+        width: 45vw;
+        font-size: 15px;
+        height: 5vh;
+        margin-right: 10%;
+       }
+       #comment_txt{
+        margin-right: 0%;
+        width: 65%;
+       }
+       .comments_section{
+        width: 90%;
+        height: 15vh;
+        padding: 5px;
+        margin: 5vh auto;
+
+    
+      
+       }
+
+       .comments_section h3{
+        font-size: 20px;
+       }
+       .comment_section p{
+        font-size: 20px;
+       }
+
+       body:has(option[value="light"]:checked){
+        color:black;
+        position: relative;
+       background-color: #ddd;
+    
+        .hero-section{
+        height: 150vh;
+        }
+    
+        .greetings{
+            font-size: 27px;
+            width:100% ;
+           
+           
+        }
+        
+        
+        .descripton .wrapper .static{
+            font-size: 22px;
+              }
+           .descripton .wrapper .dynamic_txt li{
+             font-size:20px;
+            
+            }
+        .description-box{
+            width: 70%;
+            
+        }  
+        .descripton{
+            width: 70%;
+            margin-top: 10%;
+            margin-left: 30%;
+        } 
+        .sec1{
+            height: 100vh;
+        }
+        .sec2{
+            height: 180vh;
+        }
+        .hero-section{
+            height: 130vh;
+        }
+        .box_sites2{
+            height: 64%;
+        }
+        .footer-section{
+            height: 70vh;
+        }
     }
    
     }
@@ -963,12 +1365,21 @@ height: 50px;
        
        
     }
+    
+    
+    .descripton .wrapper .static{
+        font-size: 22px;
+          }
+       .descripton .wrapper .dynamic_txt li{
+         font-size:20px;
+        
+        }
     .image_box{
         width: 40%;
-        height:35vh ;
-        top: 60%;
-        left:74% ;
-        
+        height:45vh ;
+        top: 80%;
+        left:79% ;
+        object-fit: cover;
     }
     .container_sites{
    
@@ -979,13 +1390,15 @@ height: 50px;
         margin-top: 0%;
         margin-left: 0%;
     }
+    .description-box{
+        width: 70%;
+        
+    }  
     .descripton{
-        font-size: 25px;
-        margin-bottom: 15%;
-        margin-left: 30%;
-        translate: -50% ;
-        width: 60%;
-    }
+        width: 70%;
+        margin-top: 7%;
+        margin-left: 45%;
+    } 
     .nav_links{
         width: 100%;
     }
@@ -1016,7 +1429,7 @@ height: 50px;
         margin-left: 2%;
     }
     .descripton_sites{
-        font-size: 25px;
+        font-size: 20px;
         margin-bottom: 10%;
     }
     .sec1{
@@ -1024,7 +1437,7 @@ height: 50px;
         
     }
     .sec1{
-        height: 70vh;
+        height: 100vh;
     }
     .services{
         margin-left: 5%;
@@ -1036,7 +1449,7 @@ height: 50px;
         font-size: 25px;
     }
     .sec2{
-        height: 100vh;
+        height: 180vh;
        
 
     }
@@ -1111,11 +1524,396 @@ height: 50px;
     .footer-section .rights{
         font-size: 20px;
     }
+    .comment_section{
+        height: 50vh;
+    }
+    .container{
+        margin: 10px;
+    }
+    .comment_section{
+        height: 75vh;
+       }
+       .name{
+        font-size: 15px;
+       }
+       .comment{
+        font-size: 15px;
+       }
+       .container{
+        height: 100%;
+        width: 90%;        
+       }
+       .container .comment_box input{
+        width: 90vw;
+        height: 10vh;
+        font-size: 15px;
+    
+       }
+       #name_input{
+        width: 45vw;
+        font-size: 15px;
+        height: 5vh;
+       }
+       .comments_section{
+        width: 90%;
+        height: 15vh;
+        padding: 5px;
+        margin: 5vh auto;
+
+    
+      
+       }
+       .comments_section h3{
+        font-size: 20px;
+       }
+       .comment_section p{
+        font-size: 20px;
+       }
+
+       
 
 
 
 
+
+
+       body:has(option[value="light"]:checked){
+        color:black;
+        position: relative;
+       background-color: #ddd;
+    
+        .hero-section{
+        height: 150vh;
+        }
+    
+        .greetings{
+            font-size: 27px;
+            width:100% ;
+           
+           
+        }
+        
+        
+        .descripton .wrapper .static{
+            font-size: 22px;
+              }
+           .descripton .wrapper .dynamic_txt li{
+             font-size:20px;
+            
+            }
+        .description-box{
+            width: 70%;
+            
+        }  
+        .descripton{
+            width: 70%;
+            margin-top: 20%;
+            margin-left: 30%;
+        } 
+        .sec1{
+            height: 100vh;
+        }
+        .sec2{
+            height: 180vh;
+        }
+    }
 }
+    @media (max-width:700px){
+        .title{
+            font-size: 45px;
+            width: 80%;
+        }
+        .greetings{
+            font-size: 27px;
+            width:70% ;
+           
+           
+        }
+        
+        
+        .descripton .wrapper .static{
+            font-size: 22px;
+              }
+           .descripton .wrapper .dynamic_txt li{
+             font-size:20px;
+            
+            }
+        .image_box{
+            width: 40%;
+            height:45vh ;
+            top: 80%;
+            left:79% ;
+            object-fit: cover;
+        }
+        .container_sites{
+       
+            width: 90%;
+            height: 80%;
+                display: flex;
+            padding:0px;
+            margin-top: 0%;
+            margin-left: 0%;
+        }
+        .description-box{
+            width: 80%;
+            
+        }  
+        .descripton{
+            width: 70%;
+            margin-top: 7%;
+            margin-left: 45%;
+        } 
+        .nav_links{
+            width: 100%;
+        }
+        header{
+            height:130px;
+        }
+        .a_tags{
+            font-size: 30px;
+        }
+        .image_sec1{
+            width: 60%;
+            margin-top: 2%;
+            height: 30vh;
+        }
+        .blue_tiles{
+            object-fit: cover;
+            width: 100%;
+            height: 60vh;
+        }
+        h2{
+            margin-bottom:10%;
+            font-size: 30px;
+    
+        }
+        .descripton_text_sec2{
+            margin-bottom: 10%;
+            font-size: 25px;
+            margin-left: 2%;
+        }
+        .descripton_sites{
+            font-size: 20px;
+            margin-bottom: 10%;
+        }
+        .sec1{
+            padding: 20px;
+            
+        }
+        .sec1{
+            height: 110vh;
+        }
+        .services{
+            margin-left: 5%;
+            font-size: 30px;
+        }
+        .descripton_text{
+            margin-left: 10%;
+            width: 80%;
+            font-size: 25px;
+        }
+        .sec2{
+            height: 180vh;
+           
+    
+        }
+        .box_sites{
+            height: 80%;
+            width: 40%;
+         
+        }
+        .box_sites2{
+            height: 64%;
+            position: absolute;
+            left: 38%;
+            width: 50%;
+            backdrop-filter: blur(100px);
+            
+           
+        }
+        .h2_sec2{
+            font-size: 25px;
+            margin-bottom: 10%;
+        }
+        .image_sites3
+        {
+            width: 35%;
+            top: 37%;
+        }
+        .image_sites_img
+        {
+            width: 100%;
+           
+            object-fit: cover;
+            border-radius: 20px;
+        }
+        .image_sites{
+            width: 37%;
+        
+            
+        }
+        .image_sites2{
+            width: 60%;
+            height: 50%;
+            
+            
+           
+            
+    
+            
+        }
+        .descripton_text_sec1{
+            margin-left:20px ;
+            font-size: 20px;
+        }
+        .note{
+            margin-left: 40px;
+            font-size: 17px;
+            margin-bottom: 10%;
+           width: 80%;
+        }
+        .footer-section{
+            height: 65vh;
+        }
+        .input{
+            font-size: 20px;
+        }
+        .footer-section .thanks
+        {
+            font-size: 20px;
+        }
+        .footer-section .owner{
+            font-size: 25px;
+        }
+        .footer-section .rights{
+            font-size: 20px;
+        }
+        .comment_section{
+            height: 50vh;
+        }
+        .container{
+            margin: 10px;
+        }
+        .comment_section{
+            height: 75vh;
+           }
+           .name{
+            font-size: 15px;
+           }
+           .comment{
+            font-size: 15px;
+           }
+           .container{
+            height: 100%;
+            width: 90%;        
+           }
+           .container .comment_box input{
+            width: 90vw;
+            height: 10vh;
+            font-size: 15px;
+        
+           }
+           #name_input{
+            width: 45vw;
+            font-size: 15px;
+            height: 5vh;
+           }
+           .comments_section{
+            width: 90%;
+            height: 15vh;
+            padding: 5px;
+            margin: 5vh auto;
+    
+        
+          
+           }
+           .comments_section h3{
+            font-size: 20px;
+           }
+           .comment_section p{
+            font-size: 20px;
+           }
+    
+           
+    
+    
+    
+    
+    
+    
+           body:has(option[value="light"]:checked){
+            color:black;
+            position: relative;
+           background-color: #ddd;
+        
+            .hero-section{
+            height: 150vh;
+            }
+        
+            .greetings{
+                font-size: 27px;
+                width:100% ;
+               
+               
+            }
+            
+            
+            .descripton .wrapper .static{
+                font-size: 22px;
+                  }
+               .descripton .wrapper .dynamic_txt li{
+                 font-size:20px;
+                
+                }
+            .description-box{
+                width: 70%;
+                
+            }  
+            .descripton{
+                width: 70%;
+                margin-top: 25%;
+                margin-left: 30%;
+            } 
+            .sec1{
+                height: 110vh;
+            }
+            .sec2{
+                height: 180vh;
+            }
+            .footer-section{
+                height: 65vh;
+            }
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width:600px)
@@ -1127,7 +1925,8 @@ height: 50px;
     }
     .greetings{
         font-size: 27px;
-        width:90% ;
+        width:100% ;
+        
         margin: 0 auto;
         margin-bottom: 7%;
        
@@ -1135,18 +1934,33 @@ height: 50px;
     }
     .image_box{
         width: 50%;
-        height:30vh ;
-        top: 150%;
+        height:40vh ;
+        top: 120%;
         left:50% ;
-        
-    }
-    .descripton{
-        font-size: 25px;
-        margin-bottom: 50%;
+        margin-top: 10%;
         margin-left: 50%;
-       
-        width: 90%;
+        translate: -50%;
+            
     }
+    .descripton .wrapper .static{
+        font-size: 25px;
+          }
+       .descripton .wrapper .dynamic_txt li{
+         font-size:23px;
+        
+        }
+
+
+        .description-box{
+            width: 100%;
+            
+        }  
+        .descripton{
+            width: 80%;
+            margin-top: 30%;
+            margin-left: 10%;
+            font-size: 20px;
+        } 
     .nav_links{
         width: 100%;
     }
@@ -1184,7 +1998,7 @@ height: 50px;
         
     }
     .sec1{
-        height: 100vh;
+        height: 80vh;
     }
     .services{
         margin-left: 5%;
@@ -1193,28 +2007,28 @@ height: 50px;
     .descripton_text{
         margin-left: 10%;
         width: 90%;
-        font-size: 20px;
+        font-size: 25px;
+    }
+    .sec1{
+        height: 110vh;
+    }
+    .image_sites3{
+        top: 45%;
     }
     .sec2{
-        height: 250vh;
-       
+        height: 150vh;
 
     }
     .box_sites{
-        height: 50%;
-        width: 60%;
-        margin: 0 auto;
-        
+      height: 90vh;
+
     }
     .box_sites2{
-        height: 43%;
-        position: absolute;
-        top: 55%;
-        left: 5%;
-        width: 80%;
-        
-       
+        height: 90vh;
     }
+    
+       
+    
     .h2_sec2{
         font-size: 25px;
         margin-bottom: 10%;
@@ -1222,28 +2036,23 @@ height: 50px;
     .image_sites3
     {
         width: 35%;
-        top: 37%;
+        top: 55%;
     }
     .image_sites_img
     {
-        width: 100%;
+        width: 80%;
        
         object-fit: cover;
         border-radius: 20px;
     }
     .image_sites{
-        width: 37%;
+        width: 35%;
     
         
     }
     .image_sites2{
         width: 50%;
-        height: 50%;
-        
-        
-       
-        
-
+        height:50%;
         
     }
     .descripton_text_sec1{
@@ -1256,7 +2065,7 @@ height: 50px;
         margin-bottom: 10%;
     }
     .footer-section{
-        height: 70vh;
+        height: 65vh;
     }
 
     .input{
@@ -1272,12 +2081,155 @@ height: 50px;
     .footer-section .rights{
         font-size: 17px;
     }
+    .comment_section{
+        height: 50vh;
+    }
+    .container{
+        margin: 10px;
+    }
+    .comment_section{
+        height: 70vh;
+       }
+       .name{
+        font-size: 15px;
+       }
+       .comment{
+        font-size: 15px;
+       }
+       .container{
+        height: 100%;
+        width: 90%;
+       }
+       .container .comment_box input{
+        width: 80vw;
+        font-size: 15px;
+    
+       }
+       #name_input{
+        width: 55vw;
+        font-size: 15px;
+        height: 5vh;
+       }
+       #comment_txt{
+        margin-right: 0%;
+        width: 78%;
+       }
+       .comments_section{
+        width: 90%;
+        height: 15vh;
+        padding: 5px;
+        padding-left: 10px;
+       }
+       .comments_section h3{
+        font-size: 20px;
+       }
+       .comment_section p{
+        font-size: 20px;
+       }
+       body:has(option[value="light"]:checked){
+        color:black;
+        position: relative;
+       background-color: #ddd;
+    
+        .hero-section{
+        height: 150vh;
+        }
+    
+        .greetings{
+            font-size: 27px;
+            width:100% ;
+           
+           
+        }
+        
+        
+        .descripton .wrapper .static{
+            font-size: 22px;
+              }
+           .descripton .wrapper .dynamic_txt li{
+             font-size:20px;
+            
+            }
+        .description-box{
+            width: 100%;
+            
+        }  
+        .descripton{
+            width: 70%;
+            margin-top: 20%;
+            margin-left: 35%;
+            font-size: 20px;
+        } 
+        .sec1{
+            height: 110vh;
+        }
+        .image_sites3{
+            top: 55%;
+        }
+        .sec2{
+            height: 150vh;
+
+        }
+        .box_sites{
+          height: 90vh;
+
+        }
+        .box_sites2{
+            height: 90vh;
+        }
+        .footer-section{
+            height: 65vh;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 @media (max-width:500px){
     .title{
         font-size: 30px;
-        width: 80%;
+        width: 95%;
         
     }
     .greetings{
@@ -1286,18 +2238,26 @@ height: 50px;
        
     }
     .image_box{
-        width: 65%;
-        height:25vh ;
-        top: 80%;
-        left:50% ;
-        margin-top: 31%;
+        width: 60%;
+        height:35vh ;
+        top: 50%;
+       
+        margin-top: 10%;
     }
+
+    .descripton .wrapper .static{
+        font-size: 23px;
+          }
+       .descripton .wrapper .dynamic_txt li{
+         font-size:20px;
+        
+        }
     .descripton{
         font-size: 20px;
         margin-bottom: 60%;
-        margin-left: 50%;
+        margin-left: 10%;
         translate: -50% ;
-        width: 80%;
+        width: 100%;
     }
     .nav_links{
         width: 100%;
@@ -1328,17 +2288,20 @@ height: 50px;
         font-size: 20px;
         margin-left: 2%;
     }
+    
+   
     .descripton_sites{
         font-size: 23px;
         margin-bottom: 15%;
     }
     .sec1{
         padding: 20px;
-        margin-top: 90%;
+        margin-top: 10%;
+        
         
     }
     .sec1{
-        height: 70vh;
+        height: 85vh;
     }
     .services{
         margin-left: 5%;
@@ -1350,7 +2313,7 @@ height: 50px;
         font-size: 20px;
     }
     .sec2{
-        height: 200vh;
+        height: 270vh;
        
 
     }
@@ -1361,11 +2324,12 @@ height: 50px;
         
     }
     .box_sites2{
-        height: 40%;
+        height: 45%;
         position: absolute;
-        top: 47%;
-        left: 5%;
-        width: 80%;
+        top: 50%;
+        left: 13%;
+        width: 60%;
+        
         
        
     }
@@ -1373,10 +2337,14 @@ height: 50px;
         font-size: 27px;
         margin-bottom: 15%;
     }
+    .image_sites2{
+        width: 33%;
+        height: 20%;
+    }
     .image_sites3
     {
-        width: 37%;
-        top: 37%;
+        width: 30%;
+        top: 43%;
     }
     .image_sites_img
     {
@@ -1386,10 +2354,12 @@ height: 50px;
         border-radius: 20px;
     }
     .image_sites{
-        width: 40%;
+        width: 30%;
     
         
     }
+    
+    
    
     .descripton_text_sec1{
         margin-left:20px ;
@@ -1406,12 +2376,169 @@ height: 50px;
             transform: translateX(100%);
         }
     }
+    .footer-section{
+        width: 100%;
+        height: 72vh;
+    }
+    .comment_section{
+        height: 50vh;
+    }
+    .container{
+        margin: 10px;
+    }
+    .comment_section{
+        height: 70vh;
+       }
+       .name{
+        font-size: 15px;
+       }
+       .comment{
+        font-size: 15px;
+       }
+       .container{
+        height: 100%;
+        width: 90%;
+       }
+       .container .comment_box input{
+        width: 80vw;
+        font-size: 15px;
+    
+       }
+       #name_input{
+        width: 55vw;
+        font-size: 15px;
+        height: 5vh;
+       }
+       .comments_section{
+        width: 90%;
+        height: 15vh;
+        padding: 5px;
+        padding-left: 10px;
+       }
+       .comments_section h3{
+        font-size: 20px;
+       }
+       .comment_section p{
+        font-size: 20px;
+       }
+       body:has(option[value="light"]:checked){
+        color:black;
+        position: relative;
+       background-color: #ddd;
+    
+        .hero-section{
+        height: 135vh;
+        }
+        header{
+            margin-bottom: 20%;
+        }
+    
+        .greetings{
+            font-size: 27px;
+            width:100% ;
+           
+           
+        }
+        
+        
+        .descripton .wrapper .static{
+            font-size: 22px;
+              }
+           .descripton .wrapper .dynamic_txt li{
+             font-size:20px;
+            
+            }
+        .description-box{
+            width: 100%;
+            
+        }  
+        .h2_sec2{
+            color: #fff;
+        }
+        .descripton{
+            width: 90%;
+            margin-top: 30%;
+            margin-left: 50%;
+           color: #fff;
+            font-size: 20px;
+        } 
+        .sec1{
+            height: 90vh;
+        }
+        
+     
+        .box_sites{
+          height: 90vh;
+
+        }
+        .box_sites2{
+            height: 90vh;
+        }
+        .footer-section{
+            height: 72vh;
+        }
+        .sec2{
+            height: 270vh;
+           
+    
+        }
+        .box_sites{
+            height:43%;
+            width: 60%;
+            margin: 0 auto;
+            
+        }
+        .box_sites2{
+            height: 45%;
+            position: absolute;
+            top: 50%;
+            left: 13%;
+            width: 60%;
+            
+            
+           
+        }
+        .h2_sec2{
+            font-size: 27px;
+            margin-bottom: 15%;
+        }
+        .image_sites2{
+            width: 33%;
+            height: 20%;
+        }
+        .image_sites3
+        {
+            width: 30%;
+            top: 43%;
+        }
+        .image_sites_img
+        {
+            width: 100%;
+           
+            object-fit: cover;
+            border-radius: 20px;
+        }
+        .image_sites{
+            width: 30%;
+        
+            
+        }
+        .title{
+            width:95%;
+        }
+        .descripton_sites{
+            color: #fff;
+        }
+        
+        
+       
+    }
 
 }
 @media (max-width:400px){
     .title{
         font-size: 25px;
-        width: 80%;
+        width: 100%;
     }
     .greetings{
         font-size: 25px;
@@ -1419,9 +2546,9 @@ height: 50px;
        
     }
     .image_box{
-        width: 70%;
-        height:35vh ;
-        top:82%;
+        width: 60%;
+        height:30vh ;
+        top:90%;
        
         left:50% ;
 
@@ -1430,8 +2557,8 @@ height: 50px;
   
     .descripton{
         font-size: 20px;
-        margin-bottom: 90%;
-        margin-left: 50%;
+        margin-top: 40%;
+        margin-left: 10%;
         translate: -50% ;
         width: 95%;
     }
@@ -1467,11 +2594,11 @@ height: 50px;
         margin-left: 2%;
     }
     .descripton_sites{
-        font-size: 24px;
+        font-size: 20px;
     }
     .sec1{
         padding: 20px;
-        height: 80vh;
+        height: 90vh;
     }
     .services{
         margin-left: 2%;
@@ -1483,7 +2610,7 @@ height: 50px;
         font-size: 20px;
     }
     .sec2{
-        height: 220vh;
+        height: 280vh;
 
     }
     .box_sites{
@@ -1495,7 +2622,7 @@ height: 50px;
     .box_sites2{
         height: 40%;
         position: absolute;
-        top: 44%;
+        top: 48%;
         left:5%;
         width: 76%;
        
@@ -1514,8 +2641,8 @@ height: 50px;
     }
     .image_sites3
     {
-        width: 47%;
-        top: 40%;
+        width: 45%;
+        top: 42%;
     }
     .image_sites_img
     {
@@ -1548,7 +2675,7 @@ height: 50px;
         margin-top: 10%;
     }
     .footer-section{
-        height: 70vh;
+        height: 73vh;
         width: 100%;
 
     }
@@ -1574,13 +2701,155 @@ height: 50px;
             transform: translateX(100%);
         }
     }
+    .comment_section{
+        height: 70vh;
+       }
+       .name{
+        font-size: 15px;
+       }
+       .comment{
+        font-size: 15px;
+       }
+       .container{
+        height: 100%;
+        width: 90%;
+       }
+       .container .comment_box input{
+        width: 80vw;
+        font-size: 15px;
+    
+       }
+       #name_input{
+        width: 55vw;
+        font-size: 15px;
+        height: 5vh;
+       }
+       #comment_txt{
+        margin-right: 5%;
+        width: 65%;
+       }
+       .comments_section{
+        width: 90%;
+        height: 15vh;
+        padding: 5px;
+        padding-left: 10px;
+       }
+       .comments_section h3{
+        font-size: 20px;
+       }
+       .comment_section p{
+        font-size: 20px;
+       }
+       body:has(option[value="light"]:checked){
+        color:black;
+        position: relative;
+       background-color: #ddd;
+    
+        .hero-section{
+        height: 135vh;
+        }
+        header{
+            margin-bottom: 20%;
+        }
+    
+        .greetings{
+            font-size: 27px;
+            width:100% ;
+           
+           
+        }
+        
+        
+        .descripton .wrapper .static{
+            font-size: 22px;
+              }
+           .descripton .wrapper .dynamic_txt li{
+             font-size:20px;
+            
+            }
+        .description-box{
+            width: 100%;
+            
+        }  
+        .h2_sec2{
+            color: #fff;
+        }
+        .descripton{
+            width: 90%;
+            margin-top: 30%;
+            margin-left: 50%;
+           color: #fff;
+            font-size: 20px;
+        } 
+        .sec2{
+            height: 280vh;
+    
+        }
+        .box_sites{
+            height: 40%;
+            width: 75%;
+            margin: 0 auto;
+            
+        }
+        .box_sites2{
+            height: 40%;
+            position: absolute;
+            top: 51%;
+            left:5%;
+            width: 76%;
+           
+        }
+        .footer-section{
+            height: 72vh;
+        }
+            
+           
+        
+        .h2_sec2{
+            font-size: 27px;
+            margin-bottom: 15%;
+        }
+        .image_sites2{
+            width: 33%;
+            height: 20%;
+        }
+        .image_sites3
+        {
+            width: 39%;
+            top: 45%;
+        }
+        .image_sites_img
+        {
+            width: 100%;
+           
+            object-fit: cover;
+            border-radius: 20px;
+        }
+        .image_sites{
+            width: 40%;
+        
+            
+        }
+        .title{
+            width:95%;
+        }
+        .descripton_sites{
+            color: #fff;
+        }
+        
+        
+       
+    }
+
+
+
 
 }
 @media (max-width:375px){
     .image_box{
         width: 50%;
-        height:35vh ;
-        top: 100%;
+        height:30vh ;
+        top: 90%;
         left:50% ;
         
     }
@@ -1593,7 +2862,7 @@ height: 50px;
     }
     .title{
         font-size: 25px;
-        width: 80%;
+        width: 100%;
     }
     .greetings{
         font-size: 23px;
@@ -1601,10 +2870,18 @@ height: 50px;
        
     }
     
+    .descripton .wrapper .static{
+        font-size: 17px;
+    }
+    .descripton .wrapper .dynamic_txt li{
+        font-size: 15px;
+        
+    }
+    
     .descripton{
         font-size: 17px;
-        margin-bottom: 90%;
-        margin-left: 50%;
+        margin-bottom: 120%;
+        margin-left: 10%;
         translate: -50% ;
         width: 95%;
     }
@@ -1616,13 +2893,14 @@ height: 50px;
         height:130px;
     }
     .a_tags{
-        font-size: 20px;
+        font-size: 15px;
     }
     .image_sec1{
         width: 100%;
         margin-top: 2%;
         height: 30vh;
     }
+    
     .blue_tiles{
         object-fit: cover;
         width: 100%;
@@ -1646,15 +2924,15 @@ height: 50px;
     }
     .services{
         margin-left: 2%;
-        font-size: 25px;
+        font-size: 23px;
     }
     .descripton_text{
         margin-left: 5%;
         width: 100%;
-        font-size: 20px;
+        font-size: 17px;
     }
     .sec2{
-        height: 220vh;
+        height: 280vh;
 
     }
     .box_sites{
@@ -1713,9 +2991,12 @@ height: 50px;
         margin-top: 10%;
     }
     .footer-section{
-        height: 70vh;
+        height: 75vh;
         width: 100%;
 
+    }
+    .image_sites2{
+        width: 50%;
     }
     .logo-footer{
         width: 100px;
@@ -1726,7 +3007,171 @@ height: 50px;
             transform: translateX(100%);
         }
     }
+    .comment_section{
+        height: 70vh;
+       }
+       .name{
+        font-size: 15px;
+       }
+       .comment{
+        font-size: 15px;
+       }
+       .container{
+        height: 100%;
+        width: 90%;
+       }
+       .container .comment_box input{
+        width: 80vw;
+        font-size: 15px;
     
+       }
+       #name_input{
+        width: 55vw;
+        font-size: 15px;
+        height: 5vh;
+        margin-bottom: 7%;
+       }
+       #comment_txt{
+        margin-right: 10%;
+        width: 90%;
+       }
+       .comments_section{
+        width: 90%;
+        height: 15vh;
+        padding: 5px;
+        padding-left: 10px;
+       }
+       .comments_section h3{
+        font-size: 20px;
+       }
+       .comment_section p{
+        font-size: 20px;
+       }
+
+       body:has(option[value="light"]:checked){
+        color:black;
+        position: relative;
+       background-color: #ddd;
+    
+        .hero-section{
+        height: 110vh;
+        }
+        header{
+            margin-bottom: 20%;
+        }
+    
+        .greetings{
+            font-size: 20px;
+            width:100% ;
+           
+           
+        }
+        .a_tags{
+            font-size: 15px;
+        }
+        .sec1{
+            height: 80vh;
+        }
+        .note{
+            font-size: 15px;
+        }
+        .descripton_text_sec1{
+            font-size: 17px;
+        }
+        
+        
+        .descripton .wrapper .static{
+            font-size: 15px;
+              }
+           .descripton .wrapper .dynamic_txt li{
+             font-size:15px;
+            
+            }
+        .description-box{
+            width: 100%;
+            
+        }
+        
+        
+        .h2_sec2{
+            color: #fff;
+        }
+        .descripton{
+            width: 95%;
+            margin-top: 45%;
+            margin-left: 50%;
+           color: #fff;
+            font-size: 17px;
+        } 
+        .sec2{
+            height: 280vh;
+    
+        }
+        .box_sites{
+            height: 40%;
+            width: 75%;
+            margin: 0 auto;
+            
+        }
+        .box_sites2{
+            height: 40%;
+            position: absolute;
+            top: 51%;
+            left:5%;
+            width: 76%;
+           
+        }
+        .footer-section{
+            height: 75vh;
+        }
+            
+           
+        
+        .h2_sec2{
+            font-size: 27px;
+            margin-bottom: 15%;
+        }
+        .image_sites2{
+            width: 50%;
+            height: 20%;
+        }
+        .image_sites3
+        {
+            width: 39%;
+            top: 45%;
+        }
+        .image_sites_img
+        {
+            width: 100%;
+           
+            object-fit: cover;
+            border-radius: 20px;
+        }.descripton_text{
+            font-size: 17px;
+        }
+        .image_sites{
+            width: 40%;
+        
+            
+        }
+        .title{
+            width:95%;
+        }
+        .descripton_sites{
+            color: #fff;
+            font-size: 15px;
+        }
+        
+        
+       
+    }
+
+
+
+
+
+
+
 }
 @media (width:344px){
     .image_box{
@@ -1780,5 +3225,544 @@ height: 50px;
         width:65% ;
         height: 25vh;
         
+    }
+}
+@media (max-width:300px){
+    .a_tags{
+
+        font-size: 13px;
+
+    }
+
+
+    .hero-section{
+        height: 100vh;
+        }
+    .lightmodes{
+        font-size: 15px;
+    }
+    .hero-section{
+        height: 100vh;
+    }
+    
+    .nav_links{
+        gap: 6%;
+    }
+    .title{
+        font-size: 17px;
+        width: 100%;
+        margin-bottom: 30px;
+       
+    }
+    header{
+        height: 13vh;
+    }
+    .descripton{
+        font-size: 20px;
+        width: 95%;
+        margin-left: 10%;
+
+    }
+    .greetings{
+        font-size: 15px;
+    }
+
+   .descripton .wrapper .static{
+        font-size: 12px;
+    }
+    .descripton .wrapper .dynamic_txt li{
+        font-size: 10px;
+        
+    }
+   .image_box{
+    top: 80%;
+    height: 20vh;
+    width: 50vw;
+    
+   }
+   .sec1{
+    margin: 5px;
+    padding:10px;
+    height: 80vh;
+    width: 90%;
+
+   }
+   h2{
+    font-size: 20px;
+   }
+   .descripton_text_sec2{
+    font-size: 17px;
+   }
+   .services{
+    font-size: 20px;
+   }
+   .descripton_text{
+    font-size: 15px;
+   }
+   p{
+    font-size: 15px;
+    
+   }
+   .descripton_text_sec1{
+    font-size: 16px;
+    margin-left: 0%;
+   }
+   .note{
+    font-size: 15px;
+   }
+   .h2_sec2{
+    font-size: 17px;
+   }
+   .descripton_sites{
+    font-size: 15px;
+   }
+   .sec2{
+    height: 230vh;
+   }
+   .comment_section{
+    height: 70vh;
+   }
+   .name{
+    font-size: 15px;
+   }
+   .comment{
+    font-size: 15px;
+   }
+   .container{
+    height: 100%;
+    width: 50%;
+   }
+   .container .comment_box input{
+    width: 70vw;
+    font-size: 10px;
+
+   }
+   #name_input{
+    width: 55vw;
+    font-size: 10px;
+    height: 5vh;
+   }
+   .comments_section{
+    width: 90%;
+    height: 10vh;
+    padding: 5px;
+    padding-left: 10px;
+   }
+   .comments_section h3{
+    font-size: 15px;
+   }
+   .comment_section p{
+    font-size: 15px;
+   }
+   .footer-section{
+    height: 60vh;
+    width: 100%;
+
+   }
+   .logo-footer{
+    width: 30vw;
+    height:10vh ;
+   }
+   .socials a .image-footer-facebook{
+    width: 10vw;
+    height: 5vh;
+   }
+   .socials a .image-footer{
+    width: 10vw;
+    height: 5vh;
+   }
+   .social-container{
+    margin-bottom: 10px;
+   }
+  .container-footer .thanks{
+    font-size: 15px;
+   }
+   .container-footer .rights{
+    font-size: 15px;
+   }
+   .container-footer{
+    height: 10vh;
+    width: 100%;
+   }
+   
+   body:has(option[value="light"]:checked){
+    color:black;
+    position: relative;
+   background-color: #ddd;
+
+    .hero-section{
+    height: 100vh;
+    }
+    header{
+        margin-bottom: 20%;
+    }
+
+
+    .greetings{
+        font-size: 20px;
+        width:100% ;
+       
+       
+    }
+    .a_tags{
+        font-size: 15px;
+    }
+    .sec1{
+        height: 82vh;
+    }
+    .note{
+        font-size: 15px;
+    }
+    .descripton_text_sec1{
+        font-size: 17px;
+    }
+    
+    
+    .descripton .wrapper .static{
+        font-size: 12px;
+          }
+       .descripton .wrapper .dynamic_txt li{
+         font-size:12px;
+        
+        }
+    .description-box{
+        width: 100%;
+        
+    }
+    
+    
+    .h2_sec2{
+        color: #fff;
+    }
+    .descripton{
+        width: 95%;
+        margin-top: 45%;
+        margin-left: 50%;
+       color: #fff;
+        font-size: 20px;
+    } 
+    .sec2{
+        height: 280vh;
+
+    }
+    .box_sites{
+        height: 40%;
+        width: 75%;
+        margin: 0 auto;
+        
+    }
+    .box_sites2{
+        height: 40%;
+        position: absolute;
+        top: 51%;
+        left:5%;
+        width: 76%;
+       
+    }
+    .footer-section{
+        height: 75vh;
+    }
+        
+       
+    
+    .h2_sec2{
+        font-size: 27px;
+        margin-bottom: 15%;
+    }
+    .image_sites2{
+        width: 50%;
+        height: 20%;
+    }
+    .image_sites3
+    {
+        width: 39%;
+        top: 45%;
+    }
+    .image_sites_img
+    {
+        width: 100%;
+       
+        object-fit: cover;
+        border-radius: 20px;
+    }.descripton_text{
+        font-size: 17px;
+    }
+    .image_sites{
+        width: 40%;
+    
+        
+    }
+    .title{
+        width:95%;
+    }
+    .descripton_sites{
+        color: #fff;
+        font-size: 15px;
+    }
+    
+    option{
+        font-size: l5px;
+    }
+   
+}
+}
+@media (height:533px){
+    .image_box{
+        width:60% ;
+        height: 40vh;
+        top: 120%;
+        
+    }
+    .sec2{
+        height: 245vh;
+    }
+    .comment_section {
+        height: 100vh;
+    }
+    .comments_section h3{
+        font-size: 20px;
+       }
+       .comment_section p{
+        font-size: 15px;
+       }
+       .footer-section{
+        height: 80vh;
+    
+       }
+       .logo-footer{
+        width: 25vw;
+        height:20vh ;
+       }
+       .socials a .image-footer-facebook{
+        width: 10vw;
+        height: 10vh;
+       }
+       .socials a .image-footer{
+        width: 10vw;
+        height: 10vh;
+       }
+       .social-container{
+        margin-bottom: 10px;
+       }
+      .container-footer .thanks{
+        font-size: 15px;
+       }
+       .container-footer .rights{
+        font-size: 15px;
+       }
+       .container-footer{
+        height: 50vh;
+        width: 100%;
+       }
+       .container{
+        height: 100%;
+        width: 90%;
+       }
+       .container .comment_box input{
+        width: 80vw;
+        font-size: 15px;
+    
+       }
+       #name_input{
+        width: 55vw;
+        font-size: 15px;
+        height: 10vh;
+       }
+       .comments_section{
+        width: 90%;
+        height: 17vh;
+        padding: 5px;
+        padding-left: 10px;
+       }
+}
+@media (height:480px){
+    .image_box{
+        width:60% ;
+        height: 40vh;
+        top: 120%;
+        
+    }
+    .sec2{
+        height: 270vh;
+    }
+    .comment_section{
+        height: 100vh;
+    }
+    .footer-section{
+        height: 85vh;
+    }
+}
+@media (height:736px){
+    .image_box{
+        width:50% ;
+        height: 30vh;
+        top: 100%;
+        
+    }
+    .sec2{
+        height: 230vh;
+    }
+    .comment_section{
+        height: 70vh;
+    }
+    .footer-section{
+        height: 60vh;
+    }
+}
+@media (height:640px){
+    .image_box{
+        width:50% ;
+        height: 30vh;
+        top: 100%;
+        
+    }
+    .sec2{
+        height: 200vh;
+    }
+    .comment_section{
+        height: 70vh;
+    }
+    .footer-section{
+        height: 65vh;
+    }
+}
+@media (height:736px){
+    .image_box{
+        width:40% ;
+        height: 30vh;
+        top: 100%;
+    
+        
+    }
+    .sec2{
+        height: 220vh;
+    }
+    .comment_section{
+        height: 70vh;
+    }
+    .footer-section{
+        height: 60vh;
+    }
+    .sec1{
+        height: 70vh;
+    }
+    .descripton_sites{
+        font-size: 20px;
+    }
+  
+
+}
+@media (height:658px){
+   
+    .sec2{
+        height: 200vh;
+    }
+   
+}
+@media (height:823px){
+    .image_box{
+        width:50% ;
+        height: 30vh;
+        top: 90%;
+        
+    }
+    .sec2{
+        height: 200vh;
+    }
+    .comment_section{
+        height: 70vh;
+    }
+    .footer-section{
+        height: 65vh;
+    }
+}@media (height:1280px){
+    .image_box{
+        width:30% ;
+        height: 25vh;
+        top: 70%;
+        
+    }
+    .sec1{
+        height: 50vh;
+    }
+    .sec2{
+        height: 70vh;
+    }
+    .comment_section{
+        height: 50vh;
+    }
+    .comments_section{
+        height: 10vh;
+    }
+    .footer-section{
+        height: 65vh;
+    }
+}
+@media (width:384px){
+    .image_box{
+        width:50% ;
+        height: 30vh;
+        top: 100%;
+        
+    }
+    .sec2{
+        height: 230vh;
+    }
+    .comment_section{
+        height: 70vh;
+    }
+    .footer-section{
+        height: 65vh;
+    }
+}
+@media (height:896px){
+    .image_box{
+        width:50% ;
+        height: 30vh;
+        top: 86%;
+        
+    }
+    .sec2{
+        height: 200vh;
+    }
+    .comment_section{
+        height: 70vh;
+    }
+    .footer-section{
+        height: 65vh;
+    }
+}
+@media (height:844px){
+    .image_box{
+        width:50% ;
+        height: 30vh;
+        top: 86%;
+        
+    }
+    .sec2{
+        height: 200vh;
+    }
+    .comment_section{
+        height: 70vh;
+    }
+    .footer-section{
+        height: 65vh;
+    }
+}
+@media (height:915px){
+    .image_box{
+        width:50% ;
+        height: 30vh;
+        top: 86%;
+        
+    }
+    .sec2{
+        height: 200vh;
+    }
+    .comment_section{
+        height: 70vh;
+    }
+    .footer-section{
+        height: 65vh;
     }
 }
